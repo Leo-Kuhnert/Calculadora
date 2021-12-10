@@ -16,7 +16,7 @@ export default function App() {
     const lastNumber = parseFloat(splitNumbers[2])
     const operator = splitNumbers[1]
 
-    if(currentNumber.slice(-1)=='%'){
+   if(currentNumber.slice(-1)=='%'){
       switch(operator){
         case '+':
         setCurrentNumber((fistNumber + (fistNumber * lastNumber / 100)).toString())
