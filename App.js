@@ -114,10 +114,10 @@ const styles = StyleSheet.create({
   results: {
     flex: 2,
     justifyContent: "center",
-    backgroundColor: "#f5f5f5"
+    backgroundColor: "#220042"
   },
   resultText: {
-    color: "#282F38",
+    color: "white",
     fontSize: 32,
     fontWeight: "bold",
     padding: 12,
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
   },
   button: {
-    backgroundColor: 'white',
+    backgroundColor: '#441385',
     alignItems: 'center',
     justifyContent: 'center',
     minWidth: 90, 
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     flex: 2,
   },
   textButton: {
-    color: "#7c7c7c",
+    color: "white",
     fontSize: 20,
   } 
 });
